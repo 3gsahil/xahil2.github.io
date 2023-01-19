@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('/fonts/RobotoMono.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  background-color: #151515;
+  color: #ffffff;
+  font-family: RobotoMono, monospace;
+  text-align: justify;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h2, h4 {
+  text-align: center;
+}
+
+em {
+  color: #7da6a8;
+}
+.content { 
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+::selection {
+  color: #151515;
+  background: #7da6a8;
+}
+
+a:link {
+  color: #7da6a8;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #7da6a8;
+  text-decoration: none;
+}
+
+.topnav {
+  background-color: #333333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 6px 12px;
+  font-size: 15px;
+}
+
+.topnav a:hover {
+  background-color: #7da6a8;
+  color: #ffffff;
+}
+
+.topnav .active {
+  background-color: #7da6a8;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1050px) {
+  img {
+    max-width: 70%;
+    height: auto;
+  }
+  
+  .content {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
